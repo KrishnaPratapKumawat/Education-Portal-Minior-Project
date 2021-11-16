@@ -1,0 +1,75 @@
+.navbar {
+    background-color: black;
+    border-radius: 30px;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+    padding-top: 3px;
+}
+
+.navbar li a {
+    padding: 3px 3px;
+
+    text-decoration: none;
+    color: rgb(249, 249, 250);
+}
+
+.navbar li a:hover {
+    color: rgba(255, 238, 0, 0.877);
+}
+
+.search {
+    float: right;
+    color: white;
+    padding: 12px 75px;
+    
+
+}
+
+.navbar input {
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129;
+}
+
+#firstpara {
+    color: white;
+    float: left;
+}
+
+
+.data { 
+    border-radius: 10px;
+    width: 350px;
+    height: 400;
+    background:black;
+    color:white;
+    top: 20%;
+    left: 35%;
+    position: absolute;
+    transform: translate(-50);
+    opacity: 0.69;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 18px;
+    margin: 6px 6px;
+}
+
+/* .kp{
+    border: 2px solid black;
+    background-color: darkgray;
+    text-align: center;
+    font-family: cursive;
+    margin: auto;
+} */
+body{
+    background-image: url('./img/WhatsApp\ Image\ 2021-07-05\ at\ 11.57.08\ AM.jpeg');
+}
